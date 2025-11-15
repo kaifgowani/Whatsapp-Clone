@@ -7,13 +7,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB4mp5_uB9lHURkZM3coAQKeevN4ktEv9I",
-  authDomain: "whatsapp-clone-ba674.firebaseapp.com",
-  projectId: "whatsapp-clone-ba674",
-  storageBucket: "whatsapp-clone-ba674.firebasestorage.app",
-  messagingSenderId: "981617556772",
-  appId: "1:981617556772:web:7753df02540571a90947b1",
-  measurementId: "G-N10FDYNXRX"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
+  measurementId: import.meta.env.VITE_measurementId
 };
 
 // Initialize Firebase

@@ -3,8 +3,9 @@ const app = express();
 const cors = require('cors')
 const bodyParser = require('body-parser')
 
+require('dotenv').config();
 const { OAuth2Client } = require("google-auth-library");
-const client = new OAuth2Client('618063519332-ca3m71oumicjbtrq64or1ub7d1juk9vs.apps.googleusercontent.com')
+const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
 app.use(bodyParser.json())
 app.use(cors())

@@ -16,7 +16,7 @@ const app = createApp(App);
 app.use(pinia);
 app.use(router);
 app.use(vue3GoogleLogin, {
-  clientId: "618063519332-ca3m71oumicjbtrq64or1ub7d1juk9vs.apps.googleusercontent.com",
+  clientId: import.meta.env.VITE_GOOGLE_CLIENT_ID,
 });
 
 app.mount("#app");
