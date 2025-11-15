@@ -1,15 +1,5 @@
 # WhatsApp Clone (whatsapp-clone)
 
-### Tutorial series on how to build this
-
-If you'd like a step by step guide on how to build this just **CLICK THE IMAGE BELOW**
-
-[![GO TO JOHN WEEKS DEV TUTORIAL VIDEOS](https://user-images.githubusercontent.com/108229029/209514041-d338518c-0317-4d18-81d4-bbb36192be1e.jpeg)](https://www.youtube.com/watch?v=E-cg6Bqaxm0)
-
-Come and check out my YOUTUBE channel for lots more tutorials -> https://www.youtube.com/@johnweeksdev
-
-**LIKE**, **SUBSCRIBE**, and **SMASH THE NOTIFICATION BELL**!!!
-
 ## App Setup
 
 Clone the repository
